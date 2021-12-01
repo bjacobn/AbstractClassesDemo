@@ -79,8 +79,8 @@ namespace ConsoleUI
 
 
             /*
-             * Add the 4 vehicles to the list
-             * Using a foreach loop iterate over each of the properties
+             * DONE - Add the 4 vehicles to the list
+             * DONE - Using a foreach loop iterate over each of the properties
              */
 
             vehicles.Add(ford);
@@ -101,7 +101,12 @@ namespace ConsoleUI
 
             // Call each of the drive methods for one car and one motorcycle
 
-            
+
+            ford.DriveAbstract();
+            ford.DriveVirtual();
+
+            yamaha.DriveAbstract();
+            yamaha.DriveVirtual();
 
             #endregion
             Console.ReadLine();

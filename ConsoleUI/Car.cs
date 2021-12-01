@@ -19,7 +19,7 @@ namespace ConsoleUI
         //Implementation
         public override void DriveAbstract()
         {
-            Console.WriteLine("Car is in drive");
+            Console.WriteLine("Abstract Car is in drive");
         }
     }
 }
