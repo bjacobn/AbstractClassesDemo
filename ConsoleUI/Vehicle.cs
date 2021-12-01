@@ -20,9 +20,7 @@ namespace ConsoleUI
         public virtual void DriveVirtual()
         {
             Console.WriteLine($"Vehicle is in drive");
-        }
-
-        
+        }      
     }
 
 }
