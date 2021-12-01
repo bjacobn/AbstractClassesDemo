@@ -6,7 +6,7 @@ namespace ConsoleUI
 {
     public abstract class Vehicle
     {
-
+        //Properties
         public string Year { get; set; } = "Default Year";
         public string Make { get; set; } = "Default Make";
         public string Model { get; set; } = "Default Model";

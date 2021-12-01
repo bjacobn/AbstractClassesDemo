@@ -6,15 +6,17 @@ namespace ConsoleUI
 {
     public class Car : Vehicle
     {
-
+        //Constructor
         public Car()
         {
 
         }
 
+        //Distinct property 
         public bool HasSteeringWheel { get; set; }
 
 
+        //Implementation
         public override void DriveAbstract()
         {
             Console.WriteLine("Car is in drive");
