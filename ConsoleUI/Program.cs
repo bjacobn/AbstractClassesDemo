@@ -83,8 +83,25 @@ namespace ConsoleUI
              * Using a foreach loop iterate over each of the properties
              */
 
+            vehicles.Add(ford);
+            vehicles.Add(yamaha);
+            vehicles.Add(honda);
+            vehicles.Add(suzuki);
+
+
+            foreach (var specs in vehicles)
+            {
+                Console.WriteLine($"Year : {specs.Year}   Make : {specs.Make}  Model : {specs.Model}");
+
+                specs.DriveVirtual();
+     
+                Console.WriteLine("-------------------------------------------");
+            }
+
 
             // Call each of the drive methods for one car and one motorcycle
+
+            
 
             #endregion
             Console.ReadLine();
